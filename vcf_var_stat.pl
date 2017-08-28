@@ -14,7 +14,7 @@ GetOptions(
 	"vcf=s" => \$vcf,
 	"out=s" => \$out,
 	"keep=s" => \$keepList,
-	"all=s" => \$all,
+	"all!" => \$all,
 	"chr=s" => \$CHROM,
 ) or die $usage;
 
